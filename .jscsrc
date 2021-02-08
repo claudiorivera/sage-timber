@@ -1,13 +1,5 @@
 {
-  "requireCurlyBraces": [
-    "if",
-    "else",
-    "for",
-    "while",
-    "do",
-    "try",
-    "catch"
-  ],
+  "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
   "requireOperatorBeforeLineBreak": true,
   "requireCamelCaseOrUpperCaseIdentifiers": true,
   "maximumLineLength": {
@@ -22,9 +14,7 @@
   "disallowTrailingWhitespace": true,
   "disallowSpaceAfterPrefixUnaryOperators": true,
   "disallowMultipleVarDecl": true,
-  "disallowKeywordsOnNewLine": [
-    "else"
-  ],
+  "disallowKeywordsOnNewLine": ["else"],
   "requireSpaceAfterKeywords": [
     "if",
     "else",

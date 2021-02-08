@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "bower install && gulp",
-    "jshint": "gulp jshint"
+    "jshint": "gulp jshint",
+    "dev": "gulp watch"
   },
   "browsersList": [
     "last 2 versions"

@@ -4,7 +4,6 @@ Sage is a WordPress starter starter theme with a modern front-end development wo
 
 The Sage + Twig starter theme combines the best of both.
 
-
 ## Theme setup
 
 Edit `lib/setup.php` to enable or disable theme features, setup navigation menus, post thumbnail sizes, post formats, and sidebars.
@@ -13,10 +12,10 @@ Edit `lib/setup.php` to enable or disable theme features, setup navigation menus
 
 You will need:
 
-* [Gulp](http://gulpjs.com/)
-* [Bower](http://bower.io/)
-* [Composer](https://getcomposer.org/)
-* [Node](http://nodejs.org/download/) - We recommend you update to the latest version of npm: `npm install -g npm@latest`.
+- [Gulp](http://gulpjs.com/)
+- [Bower](http://bower.io/)
+- [Composer](https://getcomposer.org/)
+- [Node](http://nodejs.org/download/) - We recommend you update to the latest version of npm: `npm install -g npm@latest`.
 
 From the command line:
 
@@ -42,14 +41,14 @@ To use BrowserSync during `gulp watch` you need to update `devUrl` at the bottom
 
 For example, if your local development URL is `http://project-name.dev` you would update the file to read:
 
-~~~json
+```json
   "config": {
     "devUrl": "http://project-name.dev"
   }
-~~~
+```
 
 ## Documentation
 
-* Sage: [https://github.com/roots/sage](https://github.com/roots/sage)
-* Twig: [http://twig.sensiolabs.org/](http://twig.sensiolabs.org/)
-* Timber: [https://github.com/jarednova/timber/wiki](https://github.com/jarednova/timber/wiki)
+- Sage: [https://github.com/roots/sage](https://github.com/roots/sage)
+- Twig: [http://twig.sensiolabs.org/](http://twig.sensiolabs.org/)
+- Timber: [https://github.com/jarednova/timber/wiki](https://github.com/jarednova/timber/wiki)
