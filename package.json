@@ -1,16 +1,5 @@
 {
-  "name": "sage",
-  "version": "8.5.0",
-  "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/roots/sage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/roots/sage/issues"
-  },
+  "name": "sage-timber",
   "licenses": [
     {
       "type": "MIT",
@@ -19,12 +8,11 @@
   ],
   "scripts": {
     "build": "bower install && gulp",
-    "jshint": "gulp jshint",
-    "jscs": "jscs gulpfile.js assets/scripts/*.js"
+    "jshint": "gulp jshint"
   },
-  "engines": {
-    "node": ">= 4.5"
-  },
+  "browsersList": [
+    "last 2 versions"
+  ],
   "devDependencies": {
     "asset-builder": "^2.0.0",
     "browser-sync": "^2.26.14",
